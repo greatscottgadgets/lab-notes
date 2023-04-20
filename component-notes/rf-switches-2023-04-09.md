@@ -4,9 +4,10 @@ operating frequency up to 6 GHz unless otherwise specified
 
 SPDT: 3+ footprints
   * maybe MXD8628 3 GHz 1.15x1.15 9-LGA $0.02 LCSC
+    * footprint perhaps clone of BGS13S4N9
   * maybe FM1630C 2.7 GHz 1.1x0.7 6-DFN $0.02 LCSC
   * maybe AW13412 3 GHz 1.1x0.7 6-DFN $0.02 LCSC
-    * same footprint as FM1630C (also Infineon BGS12*)
+    * same footprint as FM1630C (also Infineon BGS12)
   * FM8625H 1.1x0.7 6-DFN $0.05 LCSC
     * same footprint as FM1630C
   * FM3585 0.5 to 7.125 GHz 1x1 6-QFN $0.05 LCSC
@@ -21,8 +22,6 @@ SPDT: 3+ footprints
     * 50 ohm terminated
 
 SP3T: 3 footprints
-  * maybe MXD8628 3 GHz 1.15x1.15 9-LGA $0.02 LCSC
-    * footprint perhaps clone of BGS13S4N9
   * maybe PS11103A 3 GHz 1.1x1.1 9-UTQFN $0.04 LCSC
     * maybe same footprint as MXD8628
   * maybe MXD8638C 3 GHz 1.15x1.15 9-QFN $0.04 LCSC
@@ -33,7 +32,7 @@ SP3T: 3 footprints
   * NJG1804K64 1.5x1.5 8-QFN $0.17 Mouser
     * SKY13317 footprint
   * SKY13317-373LF 1.5x1.5 6-QFN $0.24 LCSC
-    * used on H1?
+    * used on HackRF One
   * BGS13SN8E6327XTSA1 1.1x1.1 8-TSNP $0.22 Rochester (6M stock!)
     * footprint maybe compatible with 9-LGA
 
