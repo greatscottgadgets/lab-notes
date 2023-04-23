@@ -7,7 +7,7 @@ SPDT: 3+ footprints
     * footprint perhaps clone of BGS13S4N9
   * maybe FM1630C 2.7 GHz 1.1x0.7 6-DFN $0.02 LCSC
   * maybe AW13412 3 GHz 1.1x0.7 6-DFN $0.02 LCSC
-    * same footprint as FM1630C (also Infineon BGS12)
+    * same footprint as FM1630C (also Infineon BGS12SL6)
   * FM8625H 1.1x0.7 6-DFN $0.05 LCSC
     * same footprint as FM1630C
   * FM3585 0.5 to 7.125 GHz 1x1 6-QFN $0.05 LCSC
@@ -20,6 +20,10 @@ SPDT: 3+ footprints
     * SKY13351 footprint
   * maybe SKY13348-374LF 1.5x1.5 6-QFN $0.26 LCSC
     * 50 ohm terminated
+  * BGS12SL6E6327XTSA1 1.1x0.7 6-TSLP $0.12 Rochester
+    * obsolete but lots of stock
+    * package often cloned
+    * active version: BGS12P2L6E6327XTSA1 $0.17 Digi-Key
 
 SP3T: 3 footprints
   * maybe PS11103A 3 GHz 1.1x1.1 9-UTQFN $0.04 LCSC
@@ -34,21 +38,29 @@ SP3T: 3 footprints
   * SKY13317-373LF 1.5x1.5 6-QFN $0.24 LCSC
     * used on HackRF One
   * BGS13SN8E6327XTSA1 1.1x1.1 8-TSNP $0.22 Rochester (6M stock!)
-    * footprint maybe compatible with 9-LGA
+    * footprint compatible with 9-LGA
+  * BGS13S2N9E6327XTSA1 3 GHz 1.1x1.1 $0.09 Rochester
+    * footprint compatible with 9-LGA
+  * BGS13GA14E6327XTSA1 2x2 ATSLP-14 $0.18 Rochester
 
-SP4T: 3 footprints
+SP4T: 4 footprints
   * maybe MXD8641 2.7 GHz 2x2 14-QFN $0.04 LCSC
   * maybe PS11124A 3 GHz 1.1x1.1 9-ULGA $0.04 LCSC
     * maybe same footprint as MXD8628
   * maybe WS7854QA-9/TR 5 GHz 1.1x1.1 9-QFN $0.07 LCSC
     * maybe same footprint as MXD8628
   * FM8648M 1.1x1.1 9-LGA $0.10 LCSC
-    * maybe same footprint as MXD8628
+    * same footprint as MXD8628
+    * requires via-in-pad
     * MIPI control
   * maybe BGSA143ML10 1.1x1.5 10-TSLP $0.24 Rochester
     * intended for antenna tuning
     * MIPI control
     * maybe can have multiple ports on at once?
+  * BGS14GA14E6327XTSA1 2x2 ATSLP-14 $0.19 Rochester
+    * obsolete but lots of stock
+    * same footprint as BGS13GA14
+    * GPIO interface
 
 SP6T: 1 footprint, maybe compatible with MXD8641
   * maybe MXD8661 2.7 GHz 2x2 14-QFN $0.04 LCSC
