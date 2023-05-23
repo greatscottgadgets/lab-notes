@@ -50,3 +50,16 @@ For this board, I used that standard KiCad library footprint for the U.FL connec
 ![](images/ufl_thru_tdr.jpg)
 
 I think this is due to the large signal pad, the wide trace on the bottom of the connector itself, and the proxmity to the ground plane on layer 2. I think it could benefit from a ground cutout similar to previous SMA connector test boards.
+
+#### Update (2023-05-23):
+
+I realised I could try the ground cutout fairly easily by milling slots in the back of the PCB:
+
+![](images/modified_board_back.jpg)
+![](images/modified_board_front.jpg)
+
+This improved things a lot, reducing the mismatch to ~6 ohms, but could still be improved further:
+
+![](images/modified_board_tdr.jpg)
+
+(The yellow trace is the unmodified board, green is the modified board)
