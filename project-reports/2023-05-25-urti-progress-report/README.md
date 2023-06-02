@@ -119,6 +119,10 @@ Although the SMA (coaxial RF) connector footprint has performed quite well, [rec
 
 We [explored several designs](../../rf-testing/2022-04-24-unun-test) of a 50:75 ohm unun that could be used to match the impedance of the MAX2120 input. The most intriguing result of our initial testing was the limited success of a lumped element design, but its frequency range required further tuning. After updates made through [careful simulation](../../rf-testing/2022-05-04-unun-modelling), the solution [performed very well](../../rf-testing/2022-05-30-unun-test).
 
+### DPDT RF Switch
+
+We [evaluated DPDT RF switches](../../rf-testing/2023-05-31-dpdt-switch-test) for use as a mixer bypass switch in both the transmit and receive paths. All of the switches performed reasonably well. We will likely use [MXD8546FA](https://www.lcsc.com/product-detail/RF-Switches_Maxscend-MXD8546FA_C462321.html), the overall best performer.
+
 ### Clock Generation
 
 While testing clock generators for a recent design change to HackRF One, we determined that the phase noise of CDEL925 and 5L1503 are too high for use in URTI. Si5351 (used in HackRF One) has lower phase noise and would be acceptable, but it may not be necessary to introduce even that much phase noise.
