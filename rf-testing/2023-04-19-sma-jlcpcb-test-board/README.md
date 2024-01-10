@@ -2,6 +2,8 @@
 
 ![Assembled boards](assembled-boards.jpg)
 
+**Note: These boards were produced with outdated stackup information, so the microstrip trace width is incorrect for current specs. See here for an update: https://github.com/greatscottgadgets/lab-notes/tree/main/rf-testing/2024-01-05-jlc7628-trace-width-test-board#readme**
+
 ## Purpose
 
 Evaluate performance of various SMA connector footprints on PCBs from JLCPCB. Determine a preferred footprint for future low cost RF test PCBs.
